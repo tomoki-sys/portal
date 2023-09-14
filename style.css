@@ -1,0 +1,22 @@
+.top{
+  z-index: 10;
+  position: absolute;
+  width:70vmin;
+  height:30vmin;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  margin: auto;
+  /*border: 2px solid;
+  border-color: black;*/
+  font-size:8vmin;
+  overflow: hidden;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation:ChangeColor2 0ms step-end 800ms, anime5 600ms ease 1500ms;
+  animation-fill-mode: forwards;
+}
