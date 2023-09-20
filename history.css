@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .r-title{
   margin-top: var(--rTitleMarginTop, 0) !important;
   margin-bottom: var(--rTitleMarginBottom, 0) !important;
@@ -49,7 +53,7 @@ skin
 
 .time{
   padding: var(--timePadding, .25rem 1.25rem .25rem);
-  background-color: var(--timeBackgroundColor, #f0f0f0);
+  background-color: var(--timeBackgroundColor, darkgray);
 
   font-size: var(--timeFontSize, .75rem);
   font-weight: var(--timeFontWeight, 700);
@@ -81,7 +85,7 @@ skin
   border-radius: var(--timelineCardBorderRadius, 2px);
   border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
   box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
-  background-color: var(--timelineCardBackgroundColor, #fff);
+  background-color: var(--timelineCardBackgroundColor, lightgray);
 }
 
 /*
@@ -174,7 +178,7 @@ SETTINGS
 */
 /**/
 .timeline{
-  --timelineMainColor: #4557bb;
+  --timelineMainColor: gray;
 }
 
 /*
@@ -187,7 +191,7 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
   color: #222;
 
-  background-color: #f0f0f0;
+  background-color: black;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -212,8 +216,8 @@ p:last-child{
 
 
 .substack{
-  border:1px solid #EEE; 
-  background-color: #fff;
+  border:1px solid lightgray; 
+  background-color: lightgray;
   width: 100%;
   max-width: 480px;
   height: 280px;
